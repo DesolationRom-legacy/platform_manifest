@@ -65,7 +65,7 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" />
   <project path="device/google/atv" name="device/google/atv" />
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="cm" revision="cm-12.0" />
-  <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" remote="cm" revision="cm-12.0" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="deso-device" revision="lp" />
   <project path="device/sample" name="device/sample" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
