@@ -36,18 +36,18 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="art" name="CyanogenMod/android_art" remote="cm" revision="cm-12.0" />
+  <project path="art" name="android_art" remote="cm" revision="cm-12.0" />
   <project path="bionic" name="android_bionic" remote="deso" revision="lp" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
-  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="cm" revision="cm-12.0"/>
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" revision="cm-12.0"/>
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="platform/dalvik" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
-  <project path="development" name="CyanogenMod/android_development" remote="cm" revision="cm-12.0" />
-  <project path="device/common" name="CyanogenMod/android_device_common" remote="cm" revision="cm-12.0" />
+  <project path="development" name="android_development" remote="cm" revision="cm-12.0" />
+  <project path="device/common" name="android_device_common" remote="cm" revision="cm-12.0" />
   <project path="device/generic/arm64" name="device/generic/arm64" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
   <project path="device/generic/common" name="device/generic/common" />
@@ -64,7 +64,7 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" />
   <project path="device/google/atv" name="device/google/atv" />
-  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="cm" revision="cm-12.0" />
+  <project path="device/qcom/common" name="android_device_qcom_common" remote="cm" revision="cm-12.0" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="deso-device" revision="lp" />
   <project path="device/sample" name="device/sample" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
@@ -72,9 +72,9 @@
   <project path="external/android-clat" name="platform/external/android-clat" />
   <project path="external/ant-glob" name="platform/external/ant-glob" />
   <project path="external/antlr" name="platform/external/antlr" />
-  <project path="external/ant-wireless/ant_native" name="CyanogenMod/android_external_ant-wireless_ant_native" remote="cm" revision="cm-12.0" />
-  <project path="external/ant-wireless/ant_service" name="CyanogenMod/android_external_ant-wireless_ant_service" remote="cm" revision="cm-12.0" />
-  <project path="external/ant-wireless/antradio-library" name="CyanogenMod/android_external_ant-wireless_antradio-library" remote="cm" revision="cm-12.0" />
+  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="cm" revision="cm-12.0" />
+  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="cm" revision="cm-12.0" />
+  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="cm" revision="cm-12.0" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" />
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/apache-qp" name="platform/external/apache-qp" />
@@ -82,16 +82,16 @@
   <project path="external/arduino" name="platform/external/arduino" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="CyanogenMod/android_external_bluetooth_bluedroid" remote="cm" revision="cm-12.0" />
+  <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="cm" revision="cm-12.0" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
-  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="cm" revision="cm-12.0" />
+  <project path="external/busybox" name="android_external_busybox" remote="cm" revision="cm-12.0" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" />
-  <project path="external/chromium_org" name="CyanogenMod/android_external_chromium_org" remote="cm" revision="cm-12.0" />
+  <project path="external/chromium_org" name="android_external_chromium_org" remote="cm" revision="cm-12.0" />
   <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" />
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" />
   <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" />
@@ -127,14 +127,14 @@
   <project path="external/cmockery" name="platform/external/cmockery" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" />
   <project path="external/conscrypt" name="platform/external/conscrypt" />
-  <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" remote="cm" revision="cm-12.0" />
+  <project path="external/connectivity" name="android_external_connectivity" remote="cm" revision="cm-12.0" />
   <project path="external/deqp" name="platform/external/deqp" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" />
   <project path="external/doclava" name="platform/external/doclava" />
   <project path="external/droiddriver" name="platform/external/droiddriver" />
-  <project path="external/e2fsprogs" name="Cyanogenmod/android_external_e2fsprogs" remote="cm" revision="cm-12.0" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="cm" revision="cm-12.0" />
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" />
@@ -142,23 +142,23 @@
   <project path="external/elfutils" name="platform/external/elfutils" />
   <project path="external/emma" name="platform/external/emma" />
   <project path="external/esd" name="platform/external/esd" />
-  <project path="external/exfat" name="CyanogenMod/android_external_exfat" remote="cm" revision="cm-12.0" />
+  <project path="external/exfat" name="android_external_exfat" remote="cm" revision="cm-12.0" />
   <project path="external/expat" name="platform/external/expat" />
   <project path="external/eyes-free" name="platform/external/eyes-free" />
   <project path="external/f2fs-tools" name="platform/external/f2fs-tools" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
-  <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" remote="cm" revision="cm-12.0" />
+  <project path="external/ffmpeg" name="android_external_ffmpeg" remote="cm" revision="cm-12.0" />
   <project path="external/fio" name="platform/external/fio" />
-  <project path="external/flac" name="CyanogenMod/android_external_flac" remote="cm" revision="cm-12.0"  />
+  <project path="external/flac" name="android_external_flac" remote="cm" revision="cm-12.0"  />
   <project path="external/fonttools" name="platform/external/fonttools" />
   <project path="external/freetype" name="platform/external/freetype" />
-  <project path="external/fsck_msdos" name="CyanogenMod/android_external_fsck_msdos" remote="cm" revision="cm-12.0" />
-  <project path="external/fuse" name="CyanogenMod/android_external_fuse" remote="cm" revision="cm-12.0" />
+  <project path="external/fsck_msdos" name="android_external_fsck_msdos" remote="cm" revision="cm-12.0" />
+  <project path="external/fuse" name="android_external_fuse" remote="cm" revision="cm-12.0" />
   <project path="external/gcc-demangle" name="platform/external/gcc-demangle" />
   <project path="external/genext2fs" name="platform/external/genext2fs" />
   <project path="external/giflib" name="platform/external/giflib" />
   <project path="external/glide" name="platform/external/glide" />
-  <project path="external/google" name="CyanogenMod/android_external_google" remote="cm" revision="cm-12.0" />
+  <project path="external/google" name="android_external_google" remote="cm" revision="cm-12.0" />
   <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" />
   <project path="external/google-fonts/coming-soon" name="platform/external/google-fonts/coming-soon" />
   <project path="external/google-fonts/dancing-script" name="platform/external/google-fonts/dancing-script" />
@@ -200,8 +200,8 @@
   <project path="external/libgsm" name="platform/external/libgsm" />
   <project path="external/liblzf" name="platform/external/liblzf" />
   <project path="external/libmtp" name="platform/external/libmtp" />
-  <project path="external/libnfc-nci" name="CyanogenMod/android_external_libnfc-nci" remote="cm" revision="cm-12.0" />
-  <project path="external/libnfc-nxp" name="CyanogenMod/android_external_libnfc-nxp" remote="cm" revision="cm-12.0" />
+  <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="cm" revision="cm-12.0" />
+  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="cm" revision="cm-12.0" />
   <project path="external/libnl" name="platform/external/libnl" />
   <project path="external/libogg" name="platform/external/libogg" />
   <project path="external/libopus" name="platform/external/libopus" />
@@ -212,14 +212,14 @@
   <project path="external/libselinux" name="platform/external/libselinux" />
   <project path="external/libsepol" name="platform/external/libsepol" />
   <project path="external/libssh2" name="platform/external/libssh2" />
-  <project path="external/libtar" name="CyanogenMod/android_external_libtar" remote="cm" revision="cm-12.0" />
+  <project path="external/libtar" name="android_external_libtar" remote="cm" revision="cm-12.0" />
   <project path="external/libunwind" name="platform/external/libunwind" />
   <project path="external/libusb" name="platform/external/libusb" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" />
   <project path="external/libutf" name="platform/external/libutf" />
   <project path="external/libvorbis" name="platform/external/libvorbis" />
   <project path="external/libvpx" name="platform/external/libvpx" />
-  <project path="external/libxml2" name="CyanogenMod/android_external_libxml2" remote="cm" revision="cm-12.0" />
+  <project path="external/libxml2" name="android_external_libxml2" remote="cm" revision="cm-12.0" />
   <project path="external/libyuv" name="platform/external/libyuv" />
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" />
   <project path="external/littlemock" name="platform/external/littlemock" />
@@ -255,22 +255,22 @@
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" />
   <project path="external/pcre" name="platform/external/pcre" />
   <project path="external/pdfium" name="platform/external/pdfium" />
-  <project path="external/pigz" name="CyanogenMod/android_external_pigz" remote="cm" revision="cm-12.0" />
+  <project path="external/pigz" name="android_external_pigz" remote="cm" revision="cm-12.0" />
   <project path="external/pixman" name="platform/external/pixman" />
   <project path="external/ppp" name="platform/external/ppp" />
   <project path="external/proguard" name="platform/external/proguard" />
   <project path="external/protobuf" name="platform/external/protobuf" />
   <project path="external/qemu" name="platform/external/qemu" />
   <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" />
-  <project path="external/qrngd" name="CyanogenMod/android_external_qrngd" remote="cm" revision="cm-12.0" />
+  <project path="external/qrngd" name="android_external_qrngd" remote="cm" revision="cm-12.0" />
   <project path="external/regex-re2" name="platform/external/regex-re2" />
   <project path="external/replicaisland" name="platform/external/replicaisland" />
   <project path="external/robolectric" name="platform/external/robolectric" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
   <project path="external/scrypt" name="platform/external/scrypt" />
-  <project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" remote="cm" revision="cm-12.0" />
+  <project path="external/sepolicy" name="android_external_sepolicy" remote="cm" revision="cm-12.0" />
   <project path="external/sfntly" name="platform/external/sfntly" />
-  <project path="external/skia" name="CyanogenMod/android_external_skia" remote="cm" revision="cm-12.0" />
+  <project path="external/skia" name="android_external_skia" remote="cm" revision="cm-12.0" />
   <project path="external/smack" name="platform/external/smack" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" />
@@ -278,7 +278,7 @@
   <project path="external/sqlite" name="platform/external/sqlite" />
   <project path="external/srec" name="platform/external/srec" />
   <project path="external/srtp" name="platform/external/srtp" />
-  <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" remote="cm" revision="cm-12.0" />
+  <project path="external/stagefright-plugins" name="android_external_stagefright-plugins" remote="cm" revision="cm-12.0" />
   <project path="external/stlport" name="platform/external/stlport" />
   <project path="external/strace" name="platform/external/strace" />
   <project path="external/stressapptest" name="platform/external/stressapptest" />
@@ -286,8 +286,8 @@
   <project path="external/tagsoup" name="platform/external/tagsoup" />
   <project path="external/tcpdump" name="platform/external/tcpdump" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" />
-  <project path="external/tinyalsa" name="CyanogenMod/android_external_tinyalsa" remote="cm" revision="cm-12.0" />
-  <project path="external/tinycompress" name="CyanogenMod/android_external_tinycompress" remote="cm" revision="cm-12.0" />
+  <project path="external/tinyalsa" name="android_external_tinyalsa" remote="cm" revision="cm-12.0" />
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="cm" revision="cm-12.0" />
   <project path="external/tinyxml" name="platform/external/tinyxml" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" />
   <project path="external/tremolo" name="platform/external/tremolo" />
@@ -295,11 +295,11 @@
   <project path="external/vixl" name="platform/external/vixl" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
-  <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" remote="cm" revision="cm-12.0" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="cm" revision="cm-12.0" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
-  <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="cm" revision="cm-12.0" />
+  <project path="external/zlib" name="android_external_zlib" remote="cm" revision="cm-12.0" />
   <project path="external/zopfli" name="platform/external/zopfli" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="android_frameworks_av" remote="deso" revision="lp" />
@@ -321,7 +321,7 @@
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" />
   <project path="frameworks/opt/datetimepicker" name="android_platform_frameworks_opt_datetimepicker" remote="deso" revision="lp" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
-  <project path="frameworks/opt/hardware" name="CyanogenMod/android_frameworks_opt_hardware" remote="cm" revision="cm-12.0" />
+  <project path="frameworks/opt/hardware" name="android_frameworks_opt_hardware" remote="cm" revision="cm-12.0" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
   <project path="frameworks/opt/mms" name="android_frameworks_opt_mms" remote="deso" revision="lp" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="deso" revision="lp" />
@@ -342,8 +342,8 @@
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="deso" revision="lp" />
-  <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" remote="cm" revision="cm-12.0" />
-  <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" remote="cm" revision="cm-12.0" />
+  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="cm" revision="cm-12.0" />
+  <project path="hardware/cm" name="android_hardware_cm" remote="cm" revision="cm-12.0" />
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" />
   <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" />
   <project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" />
@@ -359,36 +359,36 @@
   <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" />
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" />
   <project path="hardware/invensense" name="platform/hardware/invensense" />
-  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="cm" revision="cm-12.0" />
-  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="cm" revision="cm-12.0" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="cm" revision="cm-12.0" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cm" revision="cm-12.0" />
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" />
   <project path="hardware/nvidia/tegra124" name="platform/hardware/nvidia/tegra124" />
-  <project path="hardware/qcom/audio/default" name="CyanogenMod/android_hardware_qcom_audio" remote="cm" revision="cm-12.0" />
-  <project path="hardware/qcom/audio-caf/msm8960" name="CyanogenMod/android_hardware_qcom_audio" remote="cm" revision="cm-12.0-caf-8960" />
-  <project path="hardware/qcom/audio-caf/msm8226" name="CyanogenMod/android_hardware_qcom_audio" remote="cm" revision="cm-12.0-caf-8226" />
-  <project path="hardware/qcom/audio-caf/msm8974" name="CyanogenMod/android_hardware_qcom_audio" remote="cm" revision="cm-12.0-caf-8974" />
-  <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" remote="cm" revision="cm-12.0" />
-  <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" remote="cm" revision="cm-12.0" />
-  <project path="hardware/qcom/display-caf/msm8960" name="CyanogenMod/android_hardware_qcom_display"  remote="cm" revision="cm-12.0-caf-8960" />
-  <project path="hardware/qcom/display-caf/msm8226" name="CyanogenMod/android_hardware_qcom_display"  remote="cm" revision="cm-12.0-caf-8226" />
-  <project path="hardware/qcom/display-caf/msm8974" name="CyanogenMod/android_hardware_qcom_display"  remote="cm" revision="cm-12.0-caf-8974" />
-  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="cm" revision="cm-12.0" />
-  <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" remote="cm"  revision="cm-12.0" />
-  <project path="hardware/qcom/media/default" name="CyanogenMod/android_hardware_qcom_media"  remote="cm" revision="cm-12.0" />
-  <project path="hardware/qcom/media/msm8960" name="CyanogenMod/android_hardware_qcom_media"  remote="cm" revision="cm-12.0-aosp" />
-  <project path="hardware/qcom/media/msm8974" name="CyanogenMod/android_hardware_qcom_media"  remote="cm" revision="cm-12.0-aosp" />
-  <project path="hardware/qcom/media/msm8084" name="CyanogenMod/android_hardware_qcom_media"  remote="cm" revision="cm-12.0-aosp" />
-  <project path="hardware/qcom/media-caf/msm8960" name="CyanogenMod/android_hardware_qcom_media"  remote="cm" revision="cm-12.0-caf-8960" />
-  <project path="hardware/qcom/media-caf/msm8226" name="CyanogenMod/android_hardware_qcom_media"  remote="cm" revision="cm-12.0-caf-8226" />
-  <project path="hardware/qcom/media-caf/msm8974" name="CyanogenMod/android_hardware_qcom_media"  remote="cm" revision="cm-12.0-caf-8974" />
+  <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" remote="cm" revision="cm-12.0" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="android_hardware_qcom_audio" remote="cm" revision="cm-12.0-caf-8960" />
+  <project path="hardware/qcom/audio-caf/msm8226" name="android_hardware_qcom_audio" remote="cm" revision="cm-12.0-caf-8226" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="android_hardware_qcom_audio" remote="cm" revision="cm-12.0-caf-8974" />
+  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="cm" revision="cm-12.0" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="cm" revision="cm-12.0" />
+  <project path="hardware/qcom/display-caf/msm8960" name="android_hardware_qcom_display"  remote="cm" revision="cm-12.0-caf-8960" />
+  <project path="hardware/qcom/display-caf/msm8226" name="android_hardware_qcom_display"  remote="cm" revision="cm-12.0-caf-8226" />
+  <project path="hardware/qcom/display-caf/msm8974" name="android_hardware_qcom_display"  remote="cm" revision="cm-12.0-caf-8974" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" revision="cm-12.0" />
+  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="cm"  revision="cm-12.0" />
+  <project path="hardware/qcom/media/default" name="android_hardware_qcom_media"  remote="cm" revision="cm-12.0" />
+  <project path="hardware/qcom/media/msm8960" name="android_hardware_qcom_media"  remote="cm" revision="cm-12.0-aosp" />
+  <project path="hardware/qcom/media/msm8974" name="android_hardware_qcom_media"  remote="cm" revision="cm-12.0-aosp" />
+  <project path="hardware/qcom/media/msm8084" name="android_hardware_qcom_media"  remote="cm" revision="cm-12.0-aosp" />
+  <project path="hardware/qcom/media-caf/msm8960" name="android_hardware_qcom_media"  remote="cm" revision="cm-12.0-caf-8960" />
+  <project path="hardware/qcom/media-caf/msm8226" name="android_hardware_qcom_media"  remote="cm" revision="cm-12.0-caf-8226" />
+  <project path="hardware/qcom/media-caf/msm8974" name="android_hardware_qcom_media"  remote="cm" revision="cm-12.0-caf-8974" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26" />
   <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" />
   <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" />
-  <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" remote="cm" revision="cm-12.0" />
-  <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="cm" revision="cm-12.0" />
-  <project path="hardware/ril-caf" name="CyanogenMod/android_hardware_ril" remote="cm" revision="cm-12.0-caf" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="cm" revision="cm-12.0" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="cm" revision="cm-12.0" />
+  <project path="hardware/ril-caf" name="android_hardware_ril" remote="cm" revision="cm-12.0-caf" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" />
@@ -439,7 +439,7 @@
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" />
   <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" remote="deso" revision="lp" />
   <project path="packages/apps/VoiceDialer" name="android_packages_apps_VoiceDialer" remote="deso" revision="lp" />
-  <project path="packages/experimental" name="CyanogenMod/android_packages_experimental" remote="cm" revision="cm-12.0" />
+  <project path="packages/experimental" name="android_packages_experimental" remote="cm" revision="cm-12.0" />
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
@@ -520,13 +520,13 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/core" name="system_core" remote="deso" revision="lp" />
-  <project path="system/extras" name="CyanogenMod/android_system_extras" remote="cm" revision="cm-12.0" />
-  <project path="system/keymaster" name="CyanogenMod/android_system_keymaster" remote="cm" revision="cm-12.0" />
-  <project path="system/media" name="CyanogenMod/android_system_media" remote="cm" revision="cm-12.0" />
-  <project path="system/netd" name="CyanogenMod/android_system_netd" remote="cm" revision="cm-12.0" />
-  <project path="system/qcom" name="CyanogenMod/android_system_qcom" remote="cm" revision="cm-12.0"  />
-  <project path="system/security" name="CyanogenMod/android_system_security" remote="cm" revision="cm-12.0" />
-  <project path="system/vold" name="CyanogenMod/android_system_vold" remote="cm" revision="cm-12.0" />
+  <project path="system/extras" name="android_system_extras" remote="cm" revision="cm-12.0" />
+  <project path="system/keymaster" name="android_system_keymaster" remote="cm" revision="cm-12.0" />
+  <project path="system/media" name="android_system_media" remote="cm" revision="cm-12.0" />
+  <project path="system/netd" name="android_system_netd" remote="cm" revision="cm-12.0" />
+  <project path="system/qcom" name="android_system_qcom" remote="cm" revision="cm-12.0"  />
+  <project path="system/security" name="android_system_security" remote="cm" revision="cm-12.0" />
+  <project path="system/vold" name="android_system_vold" remote="cm" revision="cm-12.0" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" />
   <project path="tools/base" name="platform/tools/base" />
