@@ -18,7 +18,7 @@
            fetch="https://github.com/DesolationRom/" />
 
   <remote  name="cm"
-           fetch="https://github.com/"
+           fetch="https://github.com/Cyanogenmod/"
            review="review.cyanogenmod.org" />
 
   <remote  name="ln"
