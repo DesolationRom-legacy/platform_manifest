@@ -10,6 +10,9 @@
 
   <remote  name="deso"
            fetch="https://github.com/DesolationRom/" />
+           
+  <remote  name="deso-device"
+           fetch="https://github.com/DesolationRom-Devices" />
 
   <remote  name="cm"
            fetch="https://github.com/Cyanogenmod/"
