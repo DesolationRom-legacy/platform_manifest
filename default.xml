@@ -4,28 +4,16 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
-           
-  <remote  name="gh"
-           fetch="https://github.com/" />
 
   <remote  name="github"
            fetch="https://github.com/" />
 
-  <remote  name="deso-device"
-           fetch="https://github.com/DesolationRom-Devices" />
-           
   <remote  name="deso"
            fetch="https://github.com/DesolationRom/" />
 
   <remote  name="cm"
            fetch="https://github.com/Cyanogenmod/"
            review="review.cyanogenmod.org" />
-
-  <remote  name="ln"
-           fetch="git://android.git.linaro.org/" />
-
-  <remote  name="pal-bb"
-           fetch="https://bitbucket.org/aospal/" />
 
   <default revision="refs/tags/android-5.0.2_r1"
            remote="aosp"
@@ -65,7 +53,7 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" />
   <project path="device/google/atv" name="device/google/atv" />
   <project path="device/qcom/common" name="android_device_qcom_common" remote="cm" revision="cm-12.0" />
-  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="deso-device" revision="lp" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="deso" revision="lp" />
   <project path="device/sample" name="device/sample" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
