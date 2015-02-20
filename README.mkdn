@@ -1,0 +1,19 @@
+Welcome to Desolation ROM
+===================
+
+
+Getting Started
+---------------
+
+To get started with Desolation ROM, you'll need to get familiar with
+[Git and Repo](http://source.android.com/download/using-repo).
+
+To initialize your local repository using the Desolation ROM trees:
+
+for google, exynos and non qcom devices:
+
+	repo init -u git://github.com/DesolationRom/platform_manifest.git -b lp
+
+Then sync up with this command:
+
+	repo sync
