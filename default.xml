@@ -268,7 +268,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="android_frameworks_av" remote="deso" revision="lp" />
-  <project path="frameworks/base" name="android_platform_frameworks_base" remote="deso" revision="lp" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="deso" revision="lp" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" />
@@ -371,7 +371,7 @@
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="deso" revision="lp" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
-  <project path="packages/apps/Settings" name="android_platform_packages_apps_Settings" remote="deso" revision="lp" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="deso" revision="lp" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="deso" revision="lp"/>
@@ -446,6 +446,6 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" />
   <project path="tools/swt" name="platform/tools/swt" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" />
-  <project path="vendor/deso" name="android_platform_vendor_deso" remote="deso" revision="lp" />
+  <project path="vendor/deso" name="android_vendor_deso" remote="deso" revision="lp" />
 
 </manifest>
