@@ -112,7 +112,6 @@
   <project path="external/eyes-free" name="platform/external/eyes-free" />
   <project path="external/f2fs-tools" name="platform/external/f2fs-tools" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
-  <project path="external/ffmpeg" name="android_external_ffmpeg" remote="cm" revision="cm-12.0" />
   <project path="external/fio" name="platform/external/fio" />
   <project path="external/flac" name="android_external_flac" remote="cm" revision="cm-12.0"  />
   <project path="external/fonttools" name="platform/external/fonttools" />
