@@ -23,10 +23,10 @@
            sync-c="true"
            sync-j="8" />
 
-  <project path="android" name="platform_manifest" remote="deso" revision="lp" />
   <project path="build" name="android_build" remote="deso" revision="lp" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="android" name="platform_manifest" remote="deso" revision="lp" />
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="art" name="android_art" remote="cm" revision="cm-12.0" />
   <project path="bionic" name="android_bionic" remote="deso" revision="lp" />
