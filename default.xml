@@ -18,7 +18,7 @@
   <default revision="refs/tags/android-5.0.2_r1"
            remote="aosp"
            sync-c="true"
-           sync-j="4" />
+           sync-j="8" />
 
   <project path="build" name="android_build" remote="deso" revision="lp" >
     <copyfile src="core/root.mk" dest="Makefile" />
