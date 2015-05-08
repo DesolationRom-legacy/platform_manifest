@@ -41,7 +41,7 @@
   <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="android_development" remote="sr" revision="lp5.1" />
   <project path="device/common" name="device_common" remote="sr" revision="lp5.1" />
-  <project path="device/qcom/common" name="device_samsung_qcom-common" remote="sr" revision="lp5.1" />
+  <project path="device/qcom/common" name="device_qcom_common" remote="sr" revision="lp5.1" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="deso" revision="lp5.1" />
   <project path="external/aac" name="platform/external/aac" />
   <project path="external/android-clat" name="android_external_android-clat" remote="deso" revision="lp5.1" />
