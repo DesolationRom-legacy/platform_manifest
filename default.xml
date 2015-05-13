@@ -102,6 +102,7 @@
   <project path="external/clang" name="platform/external/clang" />
   <project path="external/cmockery" name="platform/external/cmockery" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" />
+  <project path="external/connectivity" name="android_external_connectivity" remote="cm" revision="cm-12.1" />
   <project path="external/conscrypt" name="platform/external/conscrypt" />
   <project path="external/deqp" name="platform/external/deqp" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
