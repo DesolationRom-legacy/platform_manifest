@@ -414,6 +414,7 @@
   <project path="prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.8" />
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.8" />
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-ln" name="Christopher83/arm-cortex_a15-linux-gnueabihf-linaro_4.9" remote="gh" revision="master" />
   <project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" />
   <project path="prebuilts/libs/libedit" name="platform/prebuilts/libs/libedit" />
   <project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" />
