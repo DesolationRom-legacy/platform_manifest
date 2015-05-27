@@ -416,7 +416,7 @@
   <project path="prebuilts/libs/libedit" name="platform/prebuilts/libs/libedit" />
   <project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" />
   <project path="prebuilts/misc" name="platform/prebuilts/misc" />
-  <project path="prebuilts/ndk" name="platform/prebuilts/ndk" />
+  <project path="prebuilts/ndk" name="prebuilts_ndk" remote="deso" revision="lp5.1" />
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" clone-depth="1" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" />
