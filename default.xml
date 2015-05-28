@@ -193,7 +193,7 @@
   <project path="external/libutf" name="platform/external/libutf" />
   <project path="external/libvorbis" name="platform/external/libvorbis" />
   <project path="external/libvpx" name="platform/external/libvpx" />
-  <project path="external/libxml2" name="platform/external/libxml2" />
+  <project path="external/libxml2" name="android_external_libxml2" remote="deso" revision="lp5.1" />
   <project path="external/libyuv" name="platform/external/libyuv" />
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" />
   <project path="external/littlemock" name="platform/external/littlemock" />
