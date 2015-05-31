@@ -12,7 +12,7 @@
            fetch="https://github.com/" />
 
   <remote  name="deso"
-           fetch="https://github.com/DesolationRom/" />
+           fetch="https://github.com/DesolationRom-legacy/" />
 
   <remote  name="deso-device"
            fetch="https://github.com/DesolationRom-Devices" />
