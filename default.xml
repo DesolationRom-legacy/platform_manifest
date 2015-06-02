@@ -25,7 +25,7 @@
            fetch="https://github.com/SlimRoms/"
            review="https://review.slimroms.eu/" />
 
-  <default revision="refs/tags/android-5.1.1_r3"
+  <default revision="refs/tags/android-5.1.1_r4"
            remote="aosp"
            sync-c="true"
            sync-j="8" />
