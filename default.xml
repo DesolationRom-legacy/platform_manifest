@@ -7,9 +7,10 @@
 
   <remote  name="bb"
            fetch="https://bitbucket.org/" />
-
-  <remote  name="gh"
-           fetch="https://github.com/" />
+           
+  <remote  name="cm"
+           fetch="https://github.com/Cyanogenmod/"
+           review="review.cyanogenmod.org" />
 
   <remote  name="deso"
            fetch="https://github.com/DesolationRom-legacy/" />
@@ -17,9 +18,11 @@
   <remote  name="deso-device"
            fetch="https://github.com/DesolationRom-Devices" />
 
-  <remote  name="cm"
-           fetch="https://github.com/Cyanogenmod/"
-           review="review.cyanogenmod.org" />
+  <remote  name="dp"
+           fetch="https://github.com/DARKPOP/" />
+
+  <remote  name="gh"
+           fetch="https://github.com/" />
 
   <remote  name="sr"
            fetch="https://github.com/SlimRoms/"
@@ -310,7 +313,7 @@
   <project path="frameworks/rs" name="android_frameworks_rs" remote="deso" revision="lp5.1" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/volley" name="platform/frameworks/volley" />
-  <project path="frameworks/webview" name="android_frameworks_webview" remote="deso" revision="lp5.1" />
+  <project path="frameworks/webview" name="frameworks_webview" remote="dp" revision="dark-5.1" />
   <project path="frameworks/wilhelm" name="android_frameworks_wilhelm" remote="deso" revision="lp5.1" />
   <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="sr" revision="lp5.1" />
   <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" remote="sr" revision="lp5.1" />
