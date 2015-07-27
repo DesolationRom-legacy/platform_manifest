@@ -294,6 +294,7 @@
   <project path="frameworks/opt/bluetooth" name="frameworks_opt_bluetooth" remote="sr" revision="lp5.1" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
+  <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="sr" revision="lp5.1" />
   <project path="frameworks/opt/chips" name="platform/frameworks/opt/chips" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" />
   <project path="frameworks/opt/datetimepicker" name="frameworks_opt_datetimepicker" remote="sr" revision="lp5.1" />
