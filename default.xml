@@ -18,8 +18,8 @@
   <remote  name="deso-device"
            fetch="https://github.com/DesolationRom-Devices" />
 
-  <remote  name="dp"
-           fetch="https://github.com/DARKPOP/" />
+  <remote  name="br"
+           fetch="https://github.com/BenzoRom/" />
 
   <remote  name="gh"
            fetch="https://github.com/" />
@@ -314,7 +314,7 @@
   <project path="frameworks/rs" name="android_frameworks_rs" remote="deso" revision="lp5.1" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/volley" name="platform/frameworks/volley" />
-  <project path="frameworks/webview" name="frameworks_webview" remote="dp" revision="dark-5.1" />
+  <project path="frameworks/webview" name="frameworks_webview" remote="br" revision="lollipop" />
   <project path="frameworks/wilhelm" name="android_frameworks_wilhelm" remote="deso" revision="lp5.1" />
   <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="sr" revision="lp5.1" />
   <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" remote="sr" revision="lp5.1" />
