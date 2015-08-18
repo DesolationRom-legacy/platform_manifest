@@ -7,7 +7,7 @@
 
   <remote  name="bb"
            fetch="https://bitbucket.org/" />
-           
+
   <remote  name="cm"
            fetch="https://github.com/Cyanogenmod/"
            review="review.cyanogenmod.org" />
@@ -397,6 +397,7 @@
   <project path="packages/services/Mms" name="android_packages_services_Mms" remote="deso" revision="lp5.1" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="deso" revision="lp5.1" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="deso" revision="lp5.1" />
+  <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
   <project path="pdk" name="platform/pdk" />
   <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" clone-depth="1" />
