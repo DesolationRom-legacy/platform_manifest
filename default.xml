@@ -372,7 +372,7 @@
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="deso" revision="lp5.1" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" />
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="deso" revision="lp5.1" />
-  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="deso" revision="lp5.1" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="sr" revision="lp5.1" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
