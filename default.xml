@@ -28,6 +28,9 @@
            fetch="https://github.com/SlimRoms/"
            review="https://review.slimroms.eu/" />
 
+  <remote  name="muppets"
+           fetch="https://github.com/TheMuppets/"/>
+
   <default revision="refs/tags/android-5.1.1_r6"
            remote="aosp"
            sync-c="true"
@@ -455,6 +458,18 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" />
   <project path="tools/swt" name="platform/tools/swt" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" />
+  <project path="vendor/asus" name="proprietary_vendor_asus" remote="muppets" revision="cm-12.1" />
+  <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="muppets" revision="cm-12.1" />
+  <project path="vendor/elan" name="proprietary_vendor_elan" remote="muppets" revision="cm-12.1" />
   <project path="vendor/deso" name="android_vendor_deso" remote="deso" revision="lp5.1" />
-
+  <project path="vendor/htc" name="izzaeroth/proprietary_vendor_htc" remote="gh" revision="cm-12.1" />
+  <project path="vendor/invensense" name="proprietary_vendor_invensense" remote="muppets" revision="cm-12.1" />
+  <project path="vendor/lge" name="android_platform_vendor_lge" remote="deso-devices" revision="lp5.1" />
+  <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="muppets" revision="cm-12.1" />
+  <project path="vendor/nvidia" name="proprietary_vendor_nvidia" remote="muppets" revision="cm-12.1" />
+  <project path="vendor/oneplus" name="proprietary_vendor_oneplus" remote="muppets" revision="cm-12.1" />
+  <project path="vendor/oppo" name="AICP/proprietary_vendor_oppo" remote="gh" revision="lp5.1" />
+  <project path="vendor/nxp" name="proprietary_vendor_nxp" remote="muppets" revision="cm-12.1" />
+  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="deso-devices" revision="cm-12.1" />
+  <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="muppets" revision="cm-12.1" />
 </manifest>
